@@ -11,5 +11,11 @@ public class ServletApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ServletApplication.class, args);
 	}
+	
+//	//스프링 빈 직접 등록
+//	@Bean
+//	TestController testController() {
+//		return new TestController();
+//	}
 
 }
